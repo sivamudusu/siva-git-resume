@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    color: white;
+    background: url(https://uploads-ssl.webflow.com/62bec2ad58883c0d7237610e/62fb762e056b691e52701d63_mars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 50px;
+}
+.home_container{
+    background-color: black;
+}
+.home_container{
+    width: fit-content;
+}
+.home-image{
+    width: 100%;
+    z-index: -1;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.head-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 10px;
+    
+}
+.head-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.profile-image{
+    width: auto;
+    height: auto;
+    
+}
+.image-content{
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+
+}
+.about{
+    margin-top: 0;
+    padding: 20px;
+}
+.study{
+    margin-top: 0;
+    padding: 20px;
+}
+.search{
+    margin-top: 0;
+    padding: 20px;
+}
+.contact{
+    margin-top: 0;
+    padding: 20px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.body-right{
+    margin-top: 250px;
+    z-index: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 50;
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    flex-direction: column;
+
+}
+.body{
+    margin-left: 50px;
+}
+
+.typewriter-text{
+  font-size: 100px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid white; /* This creates the cursor effect */
+  animation: typing 3s steps(30, end);
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+}
+  
+.dynamic-text{
+    font-size: 40px;
+}
+.create{
+    color: blue;
+}
+.develop{
+    color: palevioletred;
+}
